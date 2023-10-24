@@ -1,7 +1,3 @@
-# hello-react-front-end
-
-
-
 <a name="readme-top"></a>
 
 <div align="center">
