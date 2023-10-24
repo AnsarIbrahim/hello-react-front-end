@@ -4,7 +4,7 @@ import { fetchGreeting } from '../redux/greetingReducer';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greetingmsg = useSelector((state) => state.greeting.greetingmsg);
+  const greetingmsg = useSelector((state) => state.greeting.greeting);
 
   useEffect(() => {
     dispatch(fetchGreeting());
@@ -17,8 +17,8 @@ const Greeting = () => {
   return (
     <div className="flex items-center justify-center">
       <h1 className="text-black">
-        Greeting Messages:
-        <span className="text-red-400">{greetingmsg}</span>
+        Greeting Messages: &nbsp;
+        <span className="text-blue-400">{greetingmsg.message}</span>
       </h1>
     </div>
   );
