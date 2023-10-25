@@ -54,6 +54,9 @@
 ### Backend Link <a name="backend"></a> 
 [Backend-Link](https://github.com/AnsarIbrahim/hello-rails-back-end)
 
+### Live View
+[Live](https://react-frontend-01.netlify.app/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
