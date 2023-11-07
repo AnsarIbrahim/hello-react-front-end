@@ -2,7 +2,9 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchGreeting = createAsyncThunk('fetch/greeting', async () => {
-  const response = await axios.get('http://127.0.0.1:3000/api/greetings');
+  const response = await axios.get(
+    'https://hello-react-vyzx.onrender.com/api/greetings',
+  );
   return response.data;
 });
 
